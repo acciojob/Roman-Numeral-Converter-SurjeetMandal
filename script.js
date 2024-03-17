@@ -18,8 +18,8 @@ function convertToRoman(num) {
   let rom = " ";
   for (let i = 0; i < obj.length; i++) {
   	while (num >= obj.length.value) {
-  		rom += obj.[i].numeral;
-		num -= obj.[i].value;
+  		rom += obj[i].numeral;
+		num -= obj[i].value;
 	}
   }
 return rom;
